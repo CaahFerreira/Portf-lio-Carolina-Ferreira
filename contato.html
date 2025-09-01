@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato — Carolina Ferreira</title>
+  <meta name="description" content="Entre em contato com Carolina Ferreira.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <!-- Cabeçalho vai aparecer em todas as páginas -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Página inicial">
+        <span>Carolina Ferreira</span><span class="dot">•</span><span>Portfólio</span>
+      </a>
+      <nav class="menu" aria-label="Menu principal">
+        <!-- A classe 'active' é aplicada na página correspondente -->
+        <a href="index.html" class="">Sobre mim</a>
+        <a href="formacao.html" class="">Formação</a>
+        <a href="portfolio.html" class="">Portfólio</a>
+        <a href="contato.html" class="active">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container hero">
+    <section class="card">
+      <h1>Contato</h1>
+      <p class="lead">Vamos conversar? Estou aberta a estágios, projetos e parcerias em tecnologia. Se preferir, também posso compartilhar meu currículo por e‑mail. Envie sua mensagem e retornarei o quanto antes!</p>
+
+      <!-- Formulário visual (somente frontend) -->
+      <form action="#" method="post" aria-label="Formulário de contato">
+        <div>
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome completo" required>
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" required>
+        </div>
+        <div>
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Conte-me sobre o projeto, estágio desejado ou dúvidas."></textarea>
+        </div>
+        <button type="submit" title="Este formulário é apenas visual (para a atividade).">Enviar</button>
+      </form>
+    </section>
+
+    <aside class="card" aria-label="Informações de contato">
+      <h2>Informações</h2>
+      <ul class="list">
+        <li class="badge">Carolina Ferreira da Silva</li>
+        <li class="badge">Email: <a href="mailto:caahferreira.s@gmail.com">caahferreira.s@gmail.com</a></li>
+        <li class="badge">Disponível para estágio em TI</li>
+      </ul>
+    </aside>
+  </main>
+  
+  <footer class="container">
+    <span>© 2025 Carolina Ferreira da Silva</span>
+  </footer>
+
+</body>
+</html>
